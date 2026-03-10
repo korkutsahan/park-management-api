@@ -36,24 +36,33 @@ The API supports park creation, visitor tracking and park entry fee calculation.
 
 ---
 
-## System Architecture
+## Project Files
 
 ### Class Diagram
+The class diagram of the project is available in the repository.
 
-![Class Diagram](ss/class-diagram.png)
+### Swagger Documentation
+Swagger interface screenshots are available in the repository.
 
----
-
-## API Documentation
-
-### Swagger Interface
-
-![Swagger UI](screenshots/swagger-ui.png)
-
----
-
-## Assignment Document
-
+### Assignment Document
 This project was developed as part of a university assignment.
 
 [View Assignment Document](docs/park-management-api-assignment.pdf)
+
+---
+
+## Repository Structure
+
+```text
+park-management-api
+│
+├── README.md
+│
+├── docs
+│   └── park-management-api-assignment.pdf
+│
+├── screenshots
+│
+├── ss
+│
+└── src
