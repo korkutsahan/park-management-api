@@ -40,7 +40,7 @@ The API supports park creation, visitor tracking and park entry fee calculation.
 
 ### Class Diagram
 
-![Class Diagram](diagrams/class-diagram.png)
+![Class Diagram](ss/class-diagram.png)
 
 ---
 
@@ -57,7 +57,3 @@ The API supports park creation, visitor tracking and park entry fee calculation.
 This project was developed as part of a university assignment.
 
 [View Assignment Document](docs/park-management-api-assignment.pdf)
-
----
-
-## Repository Structure
