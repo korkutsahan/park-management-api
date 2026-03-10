@@ -6,11 +6,11 @@ ASP.NET Core Web API project developed for managing park data, visitor operation
 
 ## Project Overview
 
-This project was developed as part of a course assignment.
+This project was developed as part of a university assignment.
 
-The system supports park creation, visitor management and fee calculation through a Web API structure.
+The system allows creation and management of different park types and visitor operations through a RESTful API structure.
 
-It includes different park types such as **NationalPark** and **CityPark**, and uses object-oriented design principles together with repository-based data access.
+The API supports park creation, visitor tracking and park entry fee calculation.
 
 ---
 
@@ -20,8 +20,8 @@ It includes different park types such as **NationalPark** and **CityPark**, and 
 - Create City Park
 - Add visitors
 - Remove visitors
-- Calculate entry fee
-- Retrieve park data
+- Calculate park entry fee
+- Retrieve park information
 
 ---
 
@@ -36,20 +36,28 @@ It includes different park types such as **NationalPark** and **CityPark**, and 
 
 ---
 
-## Project Status
+## System Architecture
 
-Course project / assignment
+### Class Diagram
 
----
-
-## Notes
-
-This project includes concepts such as inheritance, abstract classes, API endpoints and database operations.
+![Class Diagram](diagrams/class-diagram.png)
 
 ---
 
-## Author
+## API Documentation
 
-Korkut Şahan  
-Software Engineering Student  
-Samsun University
+### Swagger Interface
+
+![Swagger UI](screenshots/swagger-ui.png)
+
+---
+
+## Assignment Document
+
+This project was developed as part of a university assignment.
+
+[View Assignment Document](docs/park-management-api-assignment.pdf)
+
+---
+
+## Repository Structure
